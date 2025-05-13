@@ -8,6 +8,7 @@ namespace Karma.Application.DTOs
         public required string PhoneNumber { get; set; }
         public required string FirstName { get; set; }
         public string? Email { get; set; }
+        public double Age { get; set; }
         public required string LastName { get; set; }
         public required string MainJobTitle { get; set; }
         public string? Description { get; set; }

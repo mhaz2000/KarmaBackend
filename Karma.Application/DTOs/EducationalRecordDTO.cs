@@ -1,4 +1,5 @@
-﻿using Karma.Application.Mappings;
+﻿using Karma.Application.Helpers;
+using Karma.Application.Mappings;
 using Karma.Core.Entities;
 using Karma.Core.Enums;
 
@@ -8,6 +9,7 @@ namespace Karma.Application.DTOs
     {
         public Guid Id { get; set; }
         public DegreeLevel DegreeLevel { get; set; }
+        public string DegreeLevelTitle => DegreeLevel.GetDescription();
         public string? DiplomaMajor { get; set; }
         public virtual required MajorDTO Major { get; set; }
         public virtual required UniversityDTO University { get; set; }

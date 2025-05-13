@@ -59,6 +59,9 @@
 	  <None Update="StaticFiles\Iranian Sans.ttf">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
+	  <None Update="StaticFiles\Report-Old.mrt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	  <None Update="StaticFiles\Report.mrt">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>

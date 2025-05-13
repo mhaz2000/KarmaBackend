@@ -3,22 +3,21 @@
   <Dictionary Ref="1" type="Dictionary" isKey="true">
     <BusinessObjects isList="true" count="0" />
     <Databases isList="true" count="1">
-      <data Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
-        <Alias>data</Alias>
+      <ResumeData Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>ResumeData</Alias>
         <Key />
-        <Name>data</Name>
+        <Name>ResumeData</Name>
         <PathData>S:\Project\Karma\Karma/StaticFiles/data.json</PathData>
-      </data>
+      </ResumeData>
     </Databases>
     <DataSources isList="true" count="15">
       <root Ref="3" type="DataTableSource" isKey="true">
         <Alias>root</Alias>
-        <Columns isList="true" count="23">
+        <Columns isList="true" count="22">
           <value>logoFile,System.String</value>
           <value>phoneNumber,System.String</value>
           <value>firstName,System.String</value>
           <value>email,System.String</value>
-          <value>age,System.Double</value>
           <value>lastName,System.String</value>
           <value>mainJobTitle,System.String</value>
           <value>description,System.String</value>
@@ -39,9 +38,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>af666c3a98434f40b6aa14930862c19d</Key>
+        <Key>cb785cee89c14f9e9c8d1985f3c62e53</Key>
         <Name>root</Name>
-        <NameInSource>data.root</NameInSource>
+        <NameInSource>ResumeData.root</NameInSource>
       </root>
       <root_additionalSkills Ref="4" type="DataTableSource" isKey="true">
         <Alias>root_additionalSkills</Alias>
@@ -49,9 +48,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>d51c6fd1e125406597aa7ceae935eedd</Key>
+        <Key>af9ebbb664da40c5a1368bf79aee3791</Key>
         <Name>root_additionalSkills</Name>
-        <NameInSource>data.root_additionalSkills</NameInSource>
+        <NameInSource>ResumeData.root_additionalSkills</NameInSource>
       </root_additionalSkills>
       <root_careerRecords Ref="5" type="DataTableSource" isKey="true">
         <Alias>root_careerRecords</Alias>
@@ -73,9 +72,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>401fc9d6672346f090aebc57fee96b47</Key>
+        <Key>4d35c4ebc8f245af84a7c86fc6ab3055</Key>
         <Name>root_careerRecords</Name>
-        <NameInSource>data.root_careerRecords</NameInSource>
+        <NameInSource>ResumeData.root_careerRecords</NameInSource>
       </root_careerRecords>
       <root_careerRecords_city Ref="6" type="DataTableSource" isKey="true">
         <Alias>root_careerRecords_city</Alias>
@@ -85,9 +84,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>575b12d03e2f4fc2afcf6517d1357fb3</Key>
+        <Key>55e65a3155764e63861ccbb23e6d27dd</Key>
         <Name>root_careerRecords_city</Name>
-        <NameInSource>data.root_careerRecords_city</NameInSource>
+        <NameInSource>ResumeData.root_careerRecords_city</NameInSource>
       </root_careerRecords_city>
       <root_careerRecords_country Ref="7" type="DataTableSource" isKey="true">
         <Alias>root_careerRecords_country</Alias>
@@ -97,9 +96,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>e326964be24a4f7eb9a32f9e09e7b816</Key>
+        <Key>111eca06b6fe43f99049a723a70f233d</Key>
         <Name>root_careerRecords_country</Name>
-        <NameInSource>data.root_careerRecords_country</NameInSource>
+        <NameInSource>ResumeData.root_careerRecords_country</NameInSource>
       </root_careerRecords_country>
       <root_careerRecords_jobCategory Ref="8" type="DataTableSource" isKey="true">
         <Alias>root_careerRecords_jobCategory</Alias>
@@ -109,29 +108,28 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>7cd4ae4a867940e8998c9cc192a92ec4</Key>
+        <Key>cfae9d9593ce477197753570de0f965b</Key>
         <Name>root_careerRecords_jobCategory</Name>
-        <NameInSource>data.root_careerRecords_jobCategory</NameInSource>
+        <NameInSource>ResumeData.root_careerRecords_jobCategory</NameInSource>
       </root_careerRecords_jobCategory>
       <root_educationalRecords Ref="9" type="DataTableSource" isKey="true">
         <Alias>root_educationalRecords</Alias>
-        <Columns isList="true" count="11">
+        <Columns isList="true" count="10">
           <value>id,System.String</value>
           <value>degreeLevel,System.Double</value>
-          <value>degreeLevelTitle,System.String</value>
           <value>diplomaMajor,System.String</value>
           <value>major,System.String</value>
           <value>university,System.String</value>
-          <value>gpa,System.Double</value>
+          <value>gPA,System.Double</value>
           <value>fromYear,System.Double</value>
           <value>toYear,System.Double</value>
           <value>stillEducating,System.Boolean</value>
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>a5016a5dd71541baa65db6dd56621629</Key>
+        <Key>1e01f867c3aa4365b8e24123494429de</Key>
         <Name>root_educationalRecords</Name>
-        <NameInSource>data.root_educationalRecords</NameInSource>
+        <NameInSource>ResumeData.root_educationalRecords</NameInSource>
       </root_educationalRecords>
       <root_educationalRecords_major Ref="10" type="DataTableSource" isKey="true">
         <Alias>root_educationalRecords_major</Alias>
@@ -141,21 +139,21 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>1d9edc5a956b49cfa3b502b00b3a2160</Key>
+        <Key>8dccbd18e58a4fee84fe132492324444</Key>
         <Name>root_educationalRecords_major</Name>
-        <NameInSource>data.root_educationalRecords_major</NameInSource>
+        <NameInSource>ResumeData.root_educationalRecords_major</NameInSource>
       </root_educationalRecords_major>
       <root_educationalRecords_university Ref="11" type="DataTableSource" isKey="true">
         <Alias>root_educationalRecords_university</Alias>
         <Columns isList="true" count="3">
-          <value>id,System.Double</value>
+          <value>Id,System.Double</value>
           <value>title,System.String</value>
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>1f075678ad3e4f54ae759deba3799008</Key>
+        <Key>2b46d02c903042f19ee41e28c60857da</Key>
         <Name>root_educationalRecords_university</Name>
-        <NameInSource>data.root_educationalRecords_university</NameInSource>
+        <NameInSource>ResumeData.root_educationalRecords_university</NameInSource>
       </root_educationalRecords_university>
       <root_languages Ref="12" type="DataTableSource" isKey="true">
         <Alias>root_languages</Alias>
@@ -168,9 +166,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>15f4c94786be40fda15ad9f4b9c8c585</Key>
+        <Key>f2cac2a19b4345e8a7ae6014bc179472</Key>
         <Name>root_languages</Name>
-        <NameInSource>data.root_languages</NameInSource>
+        <NameInSource>ResumeData.root_languages</NameInSource>
       </root_languages>
       <root_languages_systemLanguage Ref="13" type="DataTableSource" isKey="true">
         <Alias>root_languages_systemLanguage</Alias>
@@ -180,21 +178,19 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>5bbd63ca4b484d1d9ab266e5a11539f3</Key>
+        <Key>6b262df6b38e49719c8df12ad96f7320</Key>
         <Name>root_languages_systemLanguage</Name>
-        <NameInSource>data.root_languages_systemLanguage</NameInSource>
+        <NameInSource>ResumeData.root_languages_systemLanguage</NameInSource>
       </root_languages_systemLanguage>
       <root_socialMedias Ref="14" type="DataTableSource" isKey="true">
         <Alias>root_socialMedias</Alias>
-        <Columns isList="true" count="3">
-          <value>socialMediaType,System.Double</value>
-          <value>link,System.String</value>
+        <Columns isList="true" count="1">
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>a83b9801c48b482cb824a677a34e54e3</Key>
+        <Key>ee284abaebdf4cef9fd86ca6c5035512</Key>
         <Name>root_socialMedias</Name>
-        <NameInSource>data.root_socialMedias</NameInSource>
+        <NameInSource>ResumeData.root_socialMedias</NameInSource>
       </root_socialMedias>
       <root_softwareSkills Ref="15" type="DataTableSource" isKey="true">
         <Alias>root_softwareSkills</Alias>
@@ -207,9 +203,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>71d19f4361e047ce8d4723756464712a</Key>
+        <Key>32873c0f9a87478d9457eda7a2c1feb2</Key>
         <Name>root_softwareSkills</Name>
-        <NameInSource>data.root_softwareSkills</NameInSource>
+        <NameInSource>ResumeData.root_softwareSkills</NameInSource>
       </root_softwareSkills>
       <root_softwareSkills_systemSoftwareSkill Ref="16" type="DataTableSource" isKey="true">
         <Alias>root_softwareSkills_systemSoftwareSkill</Alias>
@@ -219,9 +215,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>d470f420ea244e1ba45adc77772b4f49</Key>
+        <Key>f5cc53a0377947a4868ff4cde1a7842d</Key>
         <Name>root_softwareSkills_systemSoftwareSkill</Name>
-        <NameInSource>data.root_softwareSkills_systemSoftwareSkill</NameInSource>
+        <NameInSource>ResumeData.root_softwareSkills_systemSoftwareSkill</NameInSource>
       </root_softwareSkills_systemSoftwareSkill>
       <root_workSamples Ref="17" type="DataTableSource" isKey="true">
         <Alias>root_workSamples</Alias>
@@ -231,9 +227,9 @@
           <value>relationId,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
-        <Key>9bdaae74c76343628fe3b67d25a4a600</Key>
+        <Key>b01dfa91cf96425287f9dcbae22703f4</Key>
         <Name>root_workSamples</Name>
-        <NameInSource>data.root_workSamples</NameInSource>
+        <NameInSource>ResumeData.root_workSamples</NameInSource>
       </root_workSamples>
     </DataSources>
     <Relations isList="true" count="14">
@@ -446,20 +442,415 @@
     <Page1 Ref="32" type="Page" isKey="true">
       <Border>All;[255:255:255];2;Solid;True;4;Black</Border>
       <Brush>Transparent</Brush>
-      <Components isList="true" count="9">
+      <Components isList="true" count="6">
         <Panel1 Ref="33" type="Panel" isKey="true">
           <Brush>[22:56:83]</Brush>
-          <ClientRectangle>5.22,0,2.5,12.26</ClientRectangle>
-          <Components isList="true" count="6">
-            <Image3 Ref="34" type="Image" isKey="true">
-              <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-              <Brush>EmptyBrush</Brush>
-              <ClientRectangle>1.38,9.2,1,1</ClientRectangle>
+          <ClientRectangle>5.22,0,2.5,10.22</ClientRectangle>
+          <Components isList="true" count="7">
+            <HeaderBand9 Ref="34" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,2.5,3</ClientRectangle>
+              <Components isList="true" count="7">
+                <Text25 Ref="35" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.98,1.7,1.4,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,18,Bold</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text25</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <Text>راه‌های ارتباطی</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+                  <Type>Expression</Type>
+                </Text25>
+                <Text26 Ref="36" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>1.58,2.3,0.8,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,12,Bold</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text26</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <Text>شماره تماس:</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text26>
+                <Text27 Ref="37" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.08,2.3,1.5,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,12</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text27</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <Text>{root.phoneNumber}</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text27>
+                <Text28 Ref="38" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>1.58,2.7,0.8,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,12,Bold</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text28</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <Text>ایمیل:</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text28>
+                <Text29 Ref="39" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.08,2.7,1.5,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text29</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <ShrinkFontToFit>True</ShrinkFontToFit>
+                  <Text>{root.email}</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <Type>DataColumn</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text29>
+                <Image4 Ref="40" type="Image" isKey="true">
+                  <AspectRatio>True</AspectRatio>
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.18,0.1,2.2,1.5</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <DataColumn>root.logoFile</DataColumn>
+                  <Expressions isList="true" count="0" />
+                  <HorAlignment>Center</HorAlignment>
+                  <IconColor>68, 114, 196</IconColor>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Image4</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <Stretch>True</Stretch>
+                  <VertAlignment>Center</VertAlignment>
+                </Image4>
+                <HorizontalLinePrimitive8 Ref="41" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.58,2.1,1.8,0.01</ClientRectangle>
+                  <Color>White</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="42" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive8</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="34" />
+                  <StartCap Ref="43" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive8>
+              </Components>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <HorAlignment>Right</HorAlignment>
-              <IconColor>68, 114, 196</IconColor>
-              <ImageBytes>iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+              <Name>HeaderBand9</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+            </HeaderBand9>
+            <HeaderBand10 Ref="44" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,3.6,2.5,0.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text30 Ref="45" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.98,0.2,1.4,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,18,Bold</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text30</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="44" />
+                  <Text>تحصیلات</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <Type>Expression</Type>
+                </Text30>
+                <HorizontalLinePrimitive9 Ref="46" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.58,0.6,1.8,0.01</ClientRectangle>
+                  <Color>White</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="47" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive9</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="44" />
+                  <StartCap Ref="48" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive9>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>HeaderBand10</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+            </HeaderBand10>
+            <DataBand8 Ref="49" type="DataBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <BusinessObjectGuid isNull="true" />
+              <ClientRectangle>0,4.6,2.5,0.9</ClientRectangle>
+              <Components isList="true" count="3">
+                <Text31 Ref="50" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.18,0.1,2,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,9</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text31</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="49" />
+                  <Text>{root_educationalRecords.fromYear} - {root_educationalRecords.toYear}</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text31>
+                <Text32 Ref="51" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0.18,0.3,2,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,11,Bold</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text32</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="49" />
+                  <Text>{root_educationalRecords_university.title}</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text32>
+                <Text33 Ref="52" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.18,0.5,2,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,11</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text33</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="49" />
+                  <Text>{root_educationalRecords_major.title}</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text33>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName isNull="true" />
+              <DataSourceName>root_educationalRecords</DataSourceName>
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>DataBand8</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+              <Sort isList="true" count="0" />
+            </DataBand8>
+            <HeaderBand11 Ref="53" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,5.9,2.5,0.5</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text34 Ref="54" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.98,0.1,1.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,18,Bold</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text34</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="53" />
+                  <Text>نمونه کار‌ها</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+                  <Type>Expression</Type>
+                </Text34>
+                <HorizontalLinePrimitive10 Ref="55" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.58,0.5,1.8,0.01</ClientRectangle>
+                  <Color>White</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="56" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive10</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="53" />
+                  <StartCap Ref="57" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive10>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>HeaderBand11</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+            </HeaderBand11>
+            <DataBand9 Ref="58" type="DataBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <BusinessObjectGuid isNull="true" />
+              <ClientRectangle>0,6.8,2.5,0.4</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text35 Ref="59" type="Text" isKey="true">
+                  <AllowHtmlTags>True</AllowHtmlTags>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.08,0.2,2.3,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text35</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="58" />
+                  <Text>&lt;a href="{root_workSamples.link}" style="color: CornflowerBlue;"&gt;{root_workSamples.link}&lt;/a&gt;</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextQuality>Wysiwyg</TextQuality>
+                  <Type>Expression</Type>
+                </Text35>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName isNull="true" />
+              <DataSourceName>root_workSamples</DataSourceName>
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>DataBand9</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+              <Sort isList="true" count="0" />
+            </DataBand9>
+            <HeaderBand12 Ref="60" type="HeaderBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,7.6,2.5,0.5</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text36 Ref="61" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.98,0.1,1.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>B Nazanin,18,Bold</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text36</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="60" />
+                  <Text>زبان‌ها</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
+                  <Type>Expression</Type>
+                </Text36>
+                <HorizontalLinePrimitive11 Ref="62" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>0.58,0.5,1.8,0.01</ClientRectangle>
+                  <Color>White</Color>
+                  <Conditions isList="true" count="0" />
+                  <EndCap Ref="63" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </EndCap>
+                  <Expressions isList="true" count="0" />
+                  <Name>HorizontalLinePrimitive11</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="60" />
+                  <StartCap Ref="64" type="Cap" isKey="true">
+                    <Color>Black</Color>
+                  </StartCap>
+                </HorizontalLinePrimitive11>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>HeaderBand12</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+            </HeaderBand12>
+            <DataBand10 Ref="65" type="DataBand" isKey="true">
+              <Brush>Transparent</Brush>
+              <BusinessObjectGuid isNull="true" />
+              <ClientRectangle>0,8.5,2.5,0.4</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text37 Ref="66" type="Text" isKey="true">
+                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+                  <Brush>EmptyBrush</Brush>
+                  <ClientRectangle>0.08,0.2,2.2,0.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>A Iranian Sans,12</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text37</Name>
+                  <Page isRef="32" />
+                  <Parent isRef="65" />
+                  <Text>{root_languages.languageTitle} | {root_languages.languageLevelTitle}</Text>
+                  <TextBrush>[255:255:255]</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text37>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName isNull="true" />
+              <DataSourceName>root_languages</DataSourceName>
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>DataBand10</Name>
+              <Page isRef="32" />
+              <Parent isRef="33" />
+              <Sort isList="true" count="0" />
+            </DataBand10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DockStyle>Right</DockStyle>
+          <Expressions isList="true" count="0" />
+          <Name>Panel1</Name>
+          <Page isRef="32" />
+          <Parent isRef="32" />
+        </Panel1>
+        <Image3 Ref="67" type="Image" isKey="true">
+          <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
+          <Brush>EmptyBrush</Brush>
+          <ClientRectangle>0,9.2,1,1</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <HorAlignment>Right</HorAlignment>
+          <IconColor>68, 114, 196</IconColor>
+          <ImageBytes>iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAABq1SURBVHhe7V0JgBxVmf7r6nt6zsxkkslMJjcJ
 MQgJhJsEFYJARA2gREDBGBdX5FhxPcADRWGBFZQVQRAB0awmcVVEXYHlyE2AxByQexKSTJI5+qg+
 69jvf1WdTDJHJtM9MwT6m7yurqpX7/i/9x/vVVWHiiiiiCKKKKKIIooooogiiiiiiCKKKKKIIooo
@@ -581,504 +972,129 @@ ihFeJLe0DpsmFgQxZ+DnqcT/tYHjAZ+Xgl6FKsM+KgtqVBuU2hqrg6+e2DBkRUU4wD88KZbx36/o
 IyHr/2/hmuQ5etIxWSI0df6J2Tbf7w56NLEczlFYWYmH0sm22LDyUDqkqa/VVQYjY+pK19dVlb4B
 R74UJOwTBRfRN0JWbdz5tQ370pfGEwmx4seRLM83NI1/nN4gjHQ15NU2pZPG81VhjzJqaBl5fMEX
 McNvh/BbRSFFFFFEEUUUUUQRRRRRxPsTRP8P3qg17iWYAHIAAAAASUVORK5CYII=</ImageBytes>
-              <Margins>0,0,0,0</Margins>
-              <Name>Image3</Name>
-              <Page isRef="32" />
-              <Parent isRef="33" />
-              <VertAlignment>Center</VertAlignment>
-            </Image3>
-            <HeaderBand9 Ref="35" type="HeaderBand" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,0.2,2.5,4.2</ClientRectangle>
-              <Components isList="true" count="14">
-                <Text25 Ref="36" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.58,1.7,1.8,0.3</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,18,Bold</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text25</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <Text>اطلاعات تماس</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>Expression</Type>
-                </Text25>
-                <Text27 Ref="37" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.08,2.3,2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,10</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text27</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <Text>{root.phoneNumber}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>Expression</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text27>
-                <Text29 Ref="38" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.08,2.6,2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>Arial,10</Font>
-                  <HorAlignment>Right</HorAlignment>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text29</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{root.email}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <Type>DataColumn</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text29>
-                <Image4 Ref="39" type="Image" isKey="true">
-                  <AspectRatio>True</AspectRatio>
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.18,0.1,2.2,1.5</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <DataColumn>root.logoFile</DataColumn>
-                  <Expressions isList="true" count="0" />
-                  <HorAlignment>Center</HorAlignment>
-                  <IconColor>68, 114, 196</IconColor>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Image4</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <Stretch>True</Stretch>
-                  <VertAlignment>Center</VertAlignment>
-                </Image4>
-                <Image1 Ref="40" type="Image" isKey="true">
-                  <Brush>Transparent</Brush>
-                  <ClientRectangle>2.18,2.3,0.2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Icon>Phone</Icon>
-                  <IconColor>White</IconColor>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Image1</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                </Image1>
-                <Image2 Ref="41" type="Image" isKey="true">
-                  <Brush>Transparent</Brush>
-                  <ClientRectangle>2.18,2.6,0.2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Icon>Briefcase</Icon>
-                  <IconColor>White</IconColor>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Image2</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <VertAlignment>Center</VertAlignment>
-                </Image2>
-                <Text2 Ref="42" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.08,2.9,2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,10</Font>
-                  <HorAlignment>Right</HorAlignment>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text2</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{root.city}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <Type>DataColumn</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text2>
-                <Image5 Ref="43" type="Image" isKey="true">
-                  <Brush>Transparent</Brush>
-                  <ClientRectangle>2.18,2.9,0.2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Icon>MapMarker</Icon>
-                  <IconColor>White</IconColor>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Image5</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <VertAlignment>Center</VertAlignment>
-                </Image5>
-                <Text3 Ref="44" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>1.68,3.2,0.4,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,12</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text3</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>سن:</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>Expression</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text3>
-                <Text4 Ref="45" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>1.38,3.5,0.7,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,12</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text4</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>جنسیت:</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>Expression</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text4>
-                <Text5 Ref="46" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>1.28,3.2,0.4,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,10</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text5</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{root.age}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>DataColumn</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text5>
-                <Text6 Ref="47" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.98,3.5,0.4,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,12</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text6</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{root.gender}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>Expression</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text6>
-                <Text7 Ref="48" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>1.48,3.8,0.6,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,12</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text7</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{root.maritalStatus}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>DataColumn</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text7>
-                <HorizontalLinePrimitive8 Ref="49" type="HorizontalLinePrimitive" isKey="true">
-                  <ClientRectangle>0.58,2.1,1.8,0.01</ClientRectangle>
-                  <Color>White</Color>
-                  <Conditions isList="true" count="0" />
-                  <EndCap Ref="50" type="Cap" isKey="true">
-                    <Color>Black</Color>
-                  </EndCap>
-                  <Expressions isList="true" count="0" />
-                  <Name>HorizontalLinePrimitive8</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="35" />
-                  <StartCap Ref="51" type="Cap" isKey="true">
-                    <Color>Black</Color>
-                  </StartCap>
-                </HorizontalLinePrimitive8>
-              </Components>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Name>HeaderBand9</Name>
-              <Page isRef="32" />
-              <Parent isRef="33" />
-            </HeaderBand9>
-            <HeaderBand10 Ref="52" type="HeaderBand" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,4.8,2.5,0.6</ClientRectangle>
-              <Components isList="true" count="2">
-                <Text30 Ref="53" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.98,0.2,1.4,0.3</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>B Nazanin,18,Bold</Font>
-                  <HorAlignment>Right</HorAlignment>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text30</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="52" />
-                  <Text>نرم افزار ها</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <Type>Expression</Type>
-                </Text30>
-                <HorizontalLinePrimitive9 Ref="54" type="HorizontalLinePrimitive" isKey="true">
-                  <ClientRectangle>0.58,0.6,1.8,0.01</ClientRectangle>
-                  <Color>White</Color>
-                  <Conditions isList="true" count="0" />
-                  <EndCap Ref="55" type="Cap" isKey="true">
-                    <Color>Black</Color>
-                  </EndCap>
-                  <Expressions isList="true" count="0" />
-                  <Name>HorizontalLinePrimitive9</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="52" />
-                  <StartCap Ref="56" type="Cap" isKey="true">
-                    <Color>Black</Color>
-                  </StartCap>
-                </HorizontalLinePrimitive9>
-              </Components>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Name>HeaderBand10</Name>
-              <Page isRef="32" />
-              <Parent isRef="33" />
-            </HeaderBand10>
-            <DataBand8 Ref="57" type="DataBand" isKey="true">
-              <Brush>Transparent</Brush>
-              <BusinessObjectGuid isNull="true" />
-              <ClientRectangle>0,5.8,2.5,0.4</ClientRectangle>
-              <Components isList="true" count="2">
-                <Text33 Ref="58" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.18,0.2,2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>Arial,11</Font>
-                  <HorAlignment>Right</HorAlignment>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text33</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="57" />
-                  <Text>{root_softwareSkills.softwareSkillTitle}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <Type>DataColumn</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text33>
-                <Text8 Ref="59" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>2.18,0.2,0.1,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,10</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text8</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="57" />
-                  <Text>-</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <Type>Expression</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text8>
-              </Components>
-              <Conditions isList="true" count="0" />
-              <DataRelationName isNull="true" />
-              <DataSourceName>root_softwareSkills</DataSourceName>
-              <Expressions isList="true" count="0" />
-              <Filters isList="true" count="0" />
-              <Name>DataBand8</Name>
-              <Page isRef="32" />
-              <Parent isRef="33" />
-              <Sort isList="true" count="0" />
-            </DataBand8>
-            <HeaderBand12 Ref="60" type="HeaderBand" isKey="true">
-              <Brush>Transparent</Brush>
-              <ClientRectangle>0,6.6,2.5,0.6</ClientRectangle>
-              <Components isList="true" count="2">
-                <Text36 Ref="61" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.98,0.2,1.4,0.4</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>B Nazanin,18,Bold</Font>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text36</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="60" />
-                  <Text>زبان‌ها</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-                  <Type>Expression</Type>
-                </Text36>
-                <HorizontalLinePrimitive11 Ref="62" type="HorizontalLinePrimitive" isKey="true">
-                  <ClientRectangle>0.58,0.6,1.8,0.01</ClientRectangle>
-                  <Color>White</Color>
-                  <Conditions isList="true" count="0" />
-                  <EndCap Ref="63" type="Cap" isKey="true">
-                    <Color>Black</Color>
-                  </EndCap>
-                  <Expressions isList="true" count="0" />
-                  <Name>HorizontalLinePrimitive11</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="60" />
-                  <StartCap Ref="64" type="Cap" isKey="true">
-                    <Color>Black</Color>
-                  </StartCap>
-                </HorizontalLinePrimitive11>
-              </Components>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Name>HeaderBand12</Name>
-              <Page isRef="32" />
-              <Parent isRef="33" />
-            </HeaderBand12>
-            <DataBand10 Ref="65" type="DataBand" isKey="true">
-              <Brush>Transparent</Brush>
-              <BusinessObjectGuid isNull="true" />
-              <ClientRectangle>0,7.6,2.5,0.4</ClientRectangle>
-              <Components isList="true" count="1">
-                <Text37 Ref="66" type="Text" isKey="true">
-                  <Border>None;[0:0:0];1;Solid;False;4;Black</Border>
-                  <Brush>EmptyBrush</Brush>
-                  <ClientRectangle>0.08,0.2,2.2,0.2</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Font>A Iranian Sans,12</Font>
-                  <HorAlignment>Right</HorAlignment>
-                  <Margins>0,0,0,0</Margins>
-                  <Name>Text37</Name>
-                  <Page isRef="32" />
-                  <Parent isRef="65" />
-                  <Text>{root_languages.languageTitle} | {root_languages.languageLevelTitle}</Text>
-                  <TextBrush>[255:255:255]</TextBrush>
-                  <Type>Expression</Type>
-                  <VertAlignment>Center</VertAlignment>
-                </Text37>
-              </Components>
-              <Conditions isList="true" count="0" />
-              <DataRelationName isNull="true" />
-              <DataSourceName>root_languages</DataSourceName>
-              <Expressions isList="true" count="0" />
-              <Filters isList="true" count="0" />
-              <Name>DataBand10</Name>
-              <Page isRef="32" />
-              <Parent isRef="33" />
-              <Sort isList="true" count="0" />
-            </DataBand10>
-          </Components>
-          <Conditions isList="true" count="0" />
-          <DockStyle>Right</DockStyle>
-          <Expressions isList="true" count="0" />
-          <Name>Panel1</Name>
+          <Margins>0,0,0,0</Margins>
+          <Name>Image3</Name>
           <Page isRef="32" />
           <Parent isRef="32" />
-        </Panel1>
-        <HeaderBand7 Ref="67" type="HeaderBand" isKey="true">
+          <VertAlignment>Center</VertAlignment>
+        </Image3>
+        <HeaderBand7 Ref="68" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,0.2,5.22,1.8</ClientRectangle>
-          <Components isList="true" count="4">
-            <Text38 Ref="68" type="Text" isKey="true">
+          <ClientRectangle>0,0.2,5.22,3</ClientRectangle>
+          <Components isList="true" count="7">
+            <Text38 Ref="69" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>[255:255:255]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>2.8,0.4,2.3,0.5</ClientRectangle>
+              <ClientRectangle>2.5,0.4,2.3,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,28,Bold</Font>
+              <Font>B Nazanin,28,Bold</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text38</Name>
               <Page isRef="32" />
-              <Parent isRef="67" />
+              <Parent isRef="68" />
               <Text>{root.firstName} {root.lastName}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <Type>Expression</Type>
             </Text38>
-            <Text39 Ref="69" type="Text" isKey="true">
+            <Text39 Ref="70" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>[255:255:255]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>2.8,0.9,2.3,0.2</ClientRectangle>
+              <ClientRectangle>2.5,0.8,2.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,16</Font>
+              <Font>B Nazanin,16</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text39</Name>
               <Page isRef="32" />
-              <Parent isRef="67" />
+              <Parent isRef="68" />
               <Text>{root.mainJobTitle}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <Type>Expression</Type>
             </Text39>
-            <Text1 Ref="70" type="Text" isKey="true">
+            <Text40 Ref="71" type="Text" isKey="true">
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>3.8,1.6,1.1,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>B Nazanin,18,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="32" />
+              <Parent isRef="68" />
+              <Text>درباره من</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text40>
+            <Text41 Ref="72" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
-              <Brush>GlassBrush,Silver,True,0.2</Brush>
+              <Brush>[255:255:255]</Brush>
               <CanBreak>True</CanBreak>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,0.1,1.4,0.2</ClientRectangle>
+              <ClientRectangle>0.1,2.1,4.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>Arial,12</Font>
               <Margins>0,0,0,0</Margins>
-              <Name>Text1</Name>
+              <Name>Text41</Name>
               <Page isRef="32" />
-              <Parent isRef="67" />
-              <Text>{root.code}</Text>
+              <Parent isRef="68" />
+              <Text>{root.description}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
-              <Type>DataColumn</Type>
-            </Text1>
-            <Text40 Ref="71" type="Text" isKey="true">
-              <Brush>[22:56:83]</Brush>
-              <ClientRectangle>0.12,1.4,5.1,0.4</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="2">
-                <value>Brush,_x0022_163853_x0022_</value>
-                <value>TextBrush,_x0022_White_x0022_</value>
-              </Expressions>
-              <Font>A Iranian Sans,18,Bold</Font>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,20,0,0</Margins>
-              <Name>Text40</Name>
-              <Page isRef="32" />
-              <Parent isRef="67" />
-              <Text>سوابغ تحصیلی</Text>
-              <TextBrush>White</TextBrush>
               <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
-            </Text40>
+            </Text41>
+            <Text42 Ref="73" type="Text" isKey="true">
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>3.8,2.6,1.1,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>B Nazanin,18,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="32" />
+              <Parent isRef="68" />
+              <Text>سوابق شغلی</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text42>
+            <HorizontalLinePrimitive12 Ref="74" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.1,3,4.8,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="75" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Name>HorizontalLinePrimitive12</Name>
+              <Page isRef="32" />
+              <Parent isRef="68" />
+              <StartCap Ref="76" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive12>
+            <HorizontalLinePrimitive13 Ref="77" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.1,2,4.8,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="78" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Name>HorizontalLinePrimitive13</Name>
+              <Page isRef="32" />
+              <Parent isRef="68" />
+              <StartCap Ref="79" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive13>
           </Components>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1086,150 +1102,73 @@ McNvh/BbRSFFFFFEEUUUUUQRRRRRxPsTRP8P3qg17iWYAHIAAAAASUVORK5CYII=</ImageBytes>
           <Page isRef="32" />
           <Parent isRef="32" />
         </HeaderBand7>
-        <DataBand1 Ref="72" type="DataBand" isKey="true">
+        <DataBand6 Ref="80" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,2.4,5.22,0.5</ClientRectangle>
-          <Components isList="true" count="2">
-            <Text9 Ref="73" type="Text" isKey="true">
-              <Brush>[255:255:255]</Brush>
-              <ClientRectangle>1.8,0.2,3.2,0.2</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12,Bold</Font>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text9</Name>
-              <Page isRef="32" />
-              <Parent isRef="72" />
-              <Text>{root_educationalRecords.degreeLevelTitle} {root_educationalRecords_major.title}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-              <Type>Expression</Type>
-            </Text9>
-            <Text10 Ref="74" type="Text" isKey="true">
-              <Brush>[255:255:255]</Brush>
-              <ClientRectangle>0.1,0.2,1.3,0.2</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12</Font>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text10</Name>
-              <Page isRef="32" />
-              <Parent isRef="72" />
-              <Text>{root_educationalRecords.fromYear}-{root_educationalRecords.toYear}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
-              <Type>Expression</Type>
-            </Text10>
-          </Components>
-          <Conditions isList="true" count="0" />
-          <DataRelationName isNull="true" />
-          <DataSourceName>root_educationalRecords</DataSourceName>
-          <Expressions isList="true" count="0" />
-          <Filters isList="true" count="0" />
-          <Name>DataBand1</Name>
-          <Page isRef="32" />
-          <Parent isRef="32" />
-          <Sort isList="true" count="0" />
-        </DataBand1>
-        <HeaderBand3 Ref="75" type="HeaderBand" isKey="true">
-          <Brush>Transparent</Brush>
-          <ClientRectangle>0,3.3,5.22,0.3</ClientRectangle>
-          <Components isList="true" count="1">
-            <Text11 Ref="76" type="Text" isKey="true">
-              <Brush>[22:56:83]</Brush>
-              <ClientRectangle>0.12,0,5.1,0.4</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="2">
-                <value>Brush,_x0022_163853_x0022_</value>
-                <value>TextBrush,_x0022_White_x0022_</value>
-              </Expressions>
-              <Font>A Iranian Sans,18,Bold</Font>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,20,0,0</Margins>
-              <Name>Text11</Name>
-              <Page isRef="32" />
-              <Parent isRef="75" />
-              <Text>سوابغ شغلی</Text>
-              <TextBrush>White</TextBrush>
-              <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
-            </Text11>
-          </Components>
-          <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
-          <Name>HeaderBand3</Name>
-          <Page isRef="32" />
-          <Parent isRef="32" />
-        </HeaderBand3>
-        <DataBand6 Ref="77" type="DataBand" isKey="true">
-          <Brush>Transparent</Brush>
-          <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,4,5.22,0.8</ClientRectangle>
+          <ClientRectangle>0,3.6,5.22,0.6</ClientRectangle>
           <Components isList="true" count="4">
-            <Text43 Ref="78" type="Text" isKey="true">
+            <Text43 Ref="81" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>[255:255:255]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>3.8,0.1,1.2,0.2</ClientRectangle>
+              <ClientRectangle>3.7,0.1,1.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12,Bold</Font>
+              <Font>B Nazanin,14,Bold</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text43</Name>
               <Page isRef="32" />
-              <Parent isRef="77" />
+              <Parent isRef="80" />
               <Text>{root_careerRecords.jobTitle}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text43>
-            <Text44 Ref="79" type="Text" isKey="true">
+            <Text44 Ref="82" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>[255:255:255]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>3.7,0.3,1.2,0.2</ClientRectangle>
+              <ClientRectangle>3.6,0.3,1.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12</Font>
+              <Font>B Nazanin,14</Font>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <Name>Text44</Name>
               <Page isRef="32" />
-              <Parent isRef="77" />
+              <Parent isRef="80" />
               <Text>{root_careerRecords.companyName}</Text>
               <TextBrush>Black</TextBrush>
               <Type>DataColumn</Type>
             </Text44>
-            <Text45 Ref="80" type="Text" isKey="true">
+            <Text45 Ref="83" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>[255:255:255]</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0.2,0.3,2.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12</Font>
+              <Font>B Nazanin,12</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text45</Name>
               <Page isRef="32" />
-              <Parent isRef="77" />
+              <Parent isRef="80" />
               <Text>{root_careerRecords_country.title} - {root_careerRecords_city.title}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text45>
-            <Text46 Ref="81" type="Text" isKey="true">
+            <Text46 Ref="84" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
               <Brush>[255:255:255]</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0.2,0.1,2.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12</Font>
+              <Font>B Nazanin,14</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text46</Name>
               <Page isRef="32" />
-              <Parent isRef="77" />
+              <Parent isRef="80" />
               <Text>{root_careerRecords.duration}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
@@ -1245,133 +1184,80 @@ McNvh/BbRSFFFFFEEUUUUUQRRRRRxPsTRP8P3qg17iWYAHIAAAAASUVORK5CYII=</ImageBytes>
           <Parent isRef="32" />
           <Sort isList="true" count="0" />
         </DataBand6>
-        <HeaderBand1 Ref="82" type="HeaderBand" isKey="true">
+        <HeaderBand8 Ref="85" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,5.2,5.22,0.3</ClientRectangle>
-          <Components isList="true" count="1">
-            <Text12 Ref="83" type="Text" isKey="true">
-              <Brush>[22:56:83]</Brush>
-              <ClientRectangle>0.12,0,5.1,0.4</ClientRectangle>
+          <ClientRectangle>0,4.6,5.22,0.6</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text47 Ref="86" type="Text" isKey="true">
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>3.8,0.1,1.1,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="2">
-                <value>Brush,_x0022_163853_x0022_</value>
-                <value>TextBrush,_x0022_White_x0022_</value>
-              </Expressions>
-              <Font>A Iranian Sans,18,Bold</Font>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,20,0,0</Margins>
-              <Name>Text12</Name>
+              <Expressions isList="true" count="0" />
+              <Font>B Nazanin,18,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
               <Page isRef="32" />
-              <Parent isRef="82" />
-              <Text>پروژه ها</Text>
-              <TextBrush>White</TextBrush>
+              <Parent isRef="85" />
+              <Text>مهارت‌ها</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,RightToLeft=True,,,A=0</TextOptions>
               <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
-            </Text12>
+            </Text47>
+            <HorizontalLinePrimitive14 Ref="87" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.1,0.5,4.8,0.01</ClientRectangle>
+              <Color>Black</Color>
+              <Conditions isList="true" count="0" />
+              <EndCap Ref="88" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Expressions isList="true" count="0" />
+              <Name>HorizontalLinePrimitive14</Name>
+              <Page isRef="32" />
+              <Parent isRef="85" />
+              <StartCap Ref="89" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive14>
           </Components>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
-          <Name>HeaderBand1</Name>
+          <Name>HeaderBand8</Name>
           <Page isRef="32" />
           <Parent isRef="32" />
-        </HeaderBand1>
-        <DataBand2 Ref="84" type="DataBand" isKey="true">
+        </HeaderBand8>
+        <DataBand7 Ref="90" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,5.9,5.22,0.4</ClientRectangle>
+          <ClientRectangle>0,5.6,5.22,0.5</ClientRectangle>
+          <Columns>3</Columns>
           <Components isList="true" count="1">
-            <Text13 Ref="85" type="Text" isKey="true">
+            <Text48 Ref="91" type="Text" isKey="true">
               <AutoWidth>True</AutoWidth>
-              <Brush>[255:255:255]</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>0.1,0.1,2.6,0.2</ClientRectangle>
+              <Border>All;Black;1;Solid;True;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.1,1.1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>Arial,12,Bold</Font>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text13</Name>
+              <Font>Arial,10</Font>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text48</Name>
               <Page isRef="32" />
-              <Parent isRef="84" />
-              <Text>{root_workSamples.link}</Text>
+              <Parent isRef="90" />
+              <Text>{root_softwareSkills.softwareSkillLevelTitle} | {root_softwareSkills.softwareSkillTitle}</Text>
               <TextBrush>Black</TextBrush>
-              <Type>DataColumn</Type>
-            </Text13>
+              <Type>Expression</Type>
+            </Text48>
           </Components>
           <Conditions isList="true" count="0" />
           <DataRelationName isNull="true" />
-          <DataSourceName>root_workSamples</DataSourceName>
+          <DataSourceName>root_softwareSkills</DataSourceName>
           <Expressions isList="true" count="0" />
           <Filters isList="true" count="0" />
-          <Name>DataBand2</Name>
+          <Name>DataBand7</Name>
           <Page isRef="32" />
           <Parent isRef="32" />
           <Sort isList="true" count="0" />
-        </DataBand2>
-        <HeaderBand2 Ref="86" type="HeaderBand" isKey="true">
-          <Brush>Transparent</Brush>
-          <ClientRectangle>0,6.7,5.22,0.1</ClientRectangle>
-          <Components isList="true" count="1">
-            <Text14 Ref="87" type="Text" isKey="true">
-              <Brush>[22:56:83]</Brush>
-              <ClientRectangle>0.12,0,5.1,0.4</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="2">
-                <value>Brush,_x0022_163853_x0022_</value>
-                <value>TextBrush,_x0022_White_x0022_</value>
-              </Expressions>
-              <Font>A Iranian Sans,18,Bold</Font>
-              <HorAlignment>Right</HorAlignment>
-              <Margins>0,20,0,0</Margins>
-              <Name>Text14</Name>
-              <Page isRef="32" />
-              <Parent isRef="86" />
-              <Text>درباره من</Text>
-              <TextBrush>White</TextBrush>
-              <Type>Expression</Type>
-              <VertAlignment>Center</VertAlignment>
-            </Text14>
-          </Components>
-          <Conditions isList="true" count="0" />
-          <Expressions isList="true" count="0" />
-          <Name>HeaderBand2</Name>
-          <Page isRef="32" />
-          <Parent isRef="32" />
-        </HeaderBand2>
-        <DataBand3 Ref="88" type="DataBand" isKey="true">
-          <Brush>Transparent</Brush>
-          <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,7.2,5.22,0.9</ClientRectangle>
-          <Components isList="true" count="1">
-            <Text15 Ref="89" type="Text" isKey="true">
-              <Brush>[255:255:255]</Brush>
-              <CanBreak>True</CanBreak>
-              <CanGrow>True</CanGrow>
-              <CanShrink>True</CanShrink>
-              <ClientRectangle>0.2,0.2,4.9,0.7</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Expressions isList="true" count="0" />
-              <Font>A Iranian Sans,12,Bold</Font>
-              <GrowToHeight>True</GrowToHeight>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text15</Name>
-              <Page isRef="32" />
-              <Parent isRef="88" />
-              <Text>{root.description}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,RightToLeft=True,,WordWrap=True,A=0</TextOptions>
-              <Type>Expression</Type>
-            </Text15>
-          </Components>
-          <Conditions isList="true" count="0" />
-          <DataRelationName isNull="true" />
-          <DataSourceName>root</DataSourceName>
-          <Expressions isList="true" count="0" />
-          <Filters isList="true" count="0" />
-          <Name>DataBand3</Name>
-          <Page isRef="32" />
-          <Parent isRef="32" />
-          <Sort isList="true" count="0" />
-        </DataBand3>
+        </DataBand7>
       </Components>
       <Conditions isList="true" count="0" />
       <Expressions isList="true" count="0" />
@@ -1395,10 +1281,10 @@ McNvh/BbRSFFFFFEEUUUUUQRRRRRxPsTRP8P3qg17iWYAHIAAAAASUVORK5CYII=</ImageBytes>
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>5/13/2025 10:01:17 AM</ReportChanged>
+  <ReportChanged>10/7/2024 7:56:16 AM</ReportChanged>
   <ReportCreated>10/1/2024 8:03:42 AM</ReportCreated>
-  <ReportFile>S:\Project\Karma\Karma\StaticFiles\Report.mrt</ReportFile>
-  <ReportGuid>02a3053736fd42bf8512ec4dd9df53e6</ReportGuid>
+  <ReportFile>D:\Project\Karma\Karma\StaticFiles\Report.mrt</ReportFile>
+  <ReportGuid>043f8e0bb0d74169aef35f32a5b75425</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

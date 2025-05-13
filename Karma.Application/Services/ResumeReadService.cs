@@ -227,6 +227,7 @@ namespace Karma.Application.Services
                 AdditionalSkills = additionalSkills,
                 Email = resume.User.Email,
                 Code = resume.Code,
+                Age = resume.User.BirthDate is not null ? Math.Floor((DateTime.Now - resume.User.BirthDate).Value.TotalDays / 365) : 0,
                 FirstName = resume.User.FirstName,
                 LastName = resume.User.LastName,
                 MilitaryServiceStatus = resume.User.MilitaryServiceStatus.GetDescription(),
