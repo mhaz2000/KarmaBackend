@@ -7,7 +7,7 @@ Karma is a server-side project built with .NET 8, featuring a Clean architecture
 1. Clone the repository to your local machine.
 
     ```bash
-    git clone https://github.com/mhaz2000/karma.git
+    git clone https://github.com/mhaz2000/KarmaBackend.git
     ```
 
 2. Navigate to the project directory.
